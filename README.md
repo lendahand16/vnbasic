@@ -1,6 +1,6 @@
 # VisualNovelBASIC
 ### `main.vnb`
-```javascript
+```go
 Main Program
 000 TITLE "Main Menu"
 001 STAGE "menu.vns"
@@ -9,7 +9,7 @@ Main Program
 030 SCENE "scene_2.vnb"
 ```
 ### `scene_1.vnb`
-```javascript
+```go
 ; Scene One
 000 TITLE "*igcnh"
 001 VOICE "Main Character"
