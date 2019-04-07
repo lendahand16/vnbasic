@@ -1,0 +1,73 @@
+<style>
+/*
+#0ad Function
+#b0f Types/Keywords
+#f73 Numbers
+#d37 Strings
+#295 Classes/Objects
+#386 Comments
+
+[fun] {color: #0ad;}
+[typ] {color: #b0f;}
+[str] {color: #d37;}
+[obj] {color: #295;}*/
+
+[fun] {color: #05f;}
+
+[num] {color: #0ad;}
+
+[com]{color:#999;font-style:italic;}
+[com]:before{content:"; ";}
+
+[str]{color:#295;}
+[str]:after,[str]:before{content:"\"";}
+</style>
+
+# VisualNovelBASIC
+### `main.vnb`
+<pre>
+<code>
+<span com>Main Program</span>
+<span num>000</span> <span fun>title</span> <span str>Main Menu</span>
+<span num>001</span> <span fun>stage</span> <span str>menu.vns</span>
+<span num>010</span> <span fun>scene</span> <span str>scene_1.vnb</span>
+<span num>020</span> <span fun>scene</span> <span str>scene_transition_1.vnb</span>
+<span num>030</span> <span fun>scene</span> <span str>scene_2.vnb</span>
+</code>
+</pre>
+### `scene_1.vnb`
+<pre>
+<code>
+<span com>Scene One</span>
+<span num>000</span> <span fun>title</span> <span str>*igcnh</span>
+<span num>001</span> <span fun>voice</span> <span str>Main Character</span>
+
+<span com>Opening Sequence</span>
+<span num>010</span> <span fun>say</span> <span str>Hello there!</span>
+<span num>020</span> <span fun>say</span>
+
+<span com>Some Decision</span>
+<span num>030</span> <span fun>ask</span> <span str>Do you want to:</span>
+    <span fun>if</span> <span str>Eat</span> <span fun>goto</span> <span num>050</span>
+    <span fun>if</span> <span str>Sleep</span> <span fun>goto</span> <span num>060</span>
+    <span fun>if</span> <span str>Talk</span> <span fun>goto</span> <span num>070</span>
+<span com>Ate some food</span>
+<span num>050</span> <span fun>say</span> <span str>Delicious food!</span>
+<span num>051</span> <span fun>goto</span> <span num>080</span>
+<span com>Went to sleep</span>
+<span num>060</span> <span fun>say</span> <span str>Good sleep!</span>
+<span num>061</span> <span fun>goto</span> <span num>080</span>
+<span com>Did some talking</span>
+<span num>070</span> <span fun>say</span> <span str>Nice chat!</span>
+<span num>070</span> <span fun>goto</span> <span num>080</span>
+
+<span com>Story continues at etc</span>
+<span num>080</span> <span fun>say</span> <span str>Yay!</span>
+</code>
+</pre>
+### `menu.vns`
+<pre>
+<code>
+
+</code>
+</pre>

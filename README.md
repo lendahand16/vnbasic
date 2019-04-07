@@ -1,7 +1,7 @@
 # VisualNovelBASIC
 ### `main.vnb`
 ```go
-Main Program
+; Main Program
 000 TITLE "Main Menu"
 001 STAGE "menu.vns"
 010 SCENE "scene_1.vnb"
@@ -23,17 +23,17 @@ Main Program
     IF "Eat"   GOTO 050
     IF "Sleep" GOTO 060
     IF "Talk"  GOTO 070
-; Ate some food
+; Ate Some Food
 050 SAY "Delicious food!"
 051 GOTO 080
-; Went to sleep
+; Went To Sleep
 060 SAY "Good sleep!"
 061 GOTO 080
-; Did some talking
+; Did Some Talking
 070 SAY "Nice chat!"
 070 GOTO 080
 
-; Story continues at etc
+; Story Continues At Etc
 080 SAY Yay!
 ```
 ### `menu.vns`
